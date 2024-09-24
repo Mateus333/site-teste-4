@@ -21,10 +21,11 @@ main {
 h2, p {
     display: block;
     margin: 0 auto;
+    margin: 10px;
 }
 
 div#formulario {
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(44, 43, 43);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,42 +33,116 @@ div#formulario {
     overflow: hidden;
 
     text-align: center;
-    width: 370px;
-    height: 550px;
+    width: 380px;
+    height: 580px;
     border-radius: 20px;
-    box-shadow: 0px 0px 0px 10px black;
 }
 
 div img {
     border-radius: 100%;
     display: block;
     margin: auto;
+    width: 100px;
+    margin-top: 40px;
 }
 
 div strong {
-    color: lime;
+    color: limegreen;
 }
 
 button {
+    display: inline-block;
+    width: 290px;
+    height: 43px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
     border-radius: 10px;
-    background-color: rgb(22, 22, 22);
+    background-color: #575757;
+    cursor: pointer;
+    border: 0px;
 }
 
 a.linkum:link {
     color:white;
     text-decoration:none;
   }
-  a.linkum:visited {
-    color:#999999;
+a.linkum:visited {
+    color: black;
+    text-decoration:none;
+}
+button.linkum:hover {
+    background-color:#00ff00;
+}
+button.linkum:active {
+    color:#00ff00;
+}
+    
+a.linkdois:link {
+    color:white;
     text-decoration:none;
   }
-  a.linkum:hover {
-    color:#000000;
-    text-decoration:underline;
-  }
-  a.linkum:active {
+a.linkdois:visited {
+    color:black;
+    text-decoration:none;
+}
+button.linkdois:hover {
+    background-color:#00ff00;
+}
+button.linkdois:active {
     color:#00ff00;
-    text-decoration:underline;
-    background-color:#000000;
+}
+
+a.linktres:link {
+    color:white;
+    text-decoration:none;
   }
-    
+a.linktres:visited {
+    color:black;
+    text-decoration:none;
+}
+button.linktres:hover {
+    background-color:#00ff00;
+}
+button.linktres:active {
+    color:#00ff00;
+}
+
+a.linkquatro:link {
+    color:white;
+    text-decoration: none;
+  }
+a.linkquatro:visited {
+    color:black;
+    text-decoration: none;
+}
+button.linkquatro:hover {
+    background-color:#00ff00;
+}
+button.linkquatro:active {
+    color:#00ff00;
+}
+
+a.linkcinco:link {
+    color:white;
+    text-decoration: none;
+  }
+a.linkcinco:visited {
+    color:black;
+    text-decoration: none;
+}
+button.linkcinco:hover {
+    background-color: #00ff00;
+}
+button.linkcinco:active {
+    color:#00ff00;
+}
+
+.attribution { 
+    font-size: 20px; 
+    position: absolute;
+    bottom: 23px;
+    left: 23%;
+ }
+.attribution a {
+     color: lightgreen; 
+}
